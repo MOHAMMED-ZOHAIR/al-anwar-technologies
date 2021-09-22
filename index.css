@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #6ECB63;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 140%;
+    font-family: sans-serif;
+}
+.title{
+    margin: 2rem;
+    font-size: 200%;
+    font-family: sans-serif;
+    text-align: center;
+    color: #6ECB63;
+}
+.landing-pg, .shopify, .portfolio, .setup{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 7rem 3rem 10rem 2rem;
+    font-family: sans-serif;
+}
+.ecommerce, .web-hosting, .daraz{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2rem 10rem 3rem;
+    font-family: sans-serif;
+}
+.cat-detail h3{
+    font-size: 250%;
+    margin-bottom: 10px;
+}
+.cat-detail p{
+    font-size: 1.5rem;
+}
+.landing-pg img, .shopify img, .setup img{
+    max-width: 70%;
+    margin-left: 4rem;
+    border-radius: 3%;
+}
+.ecommerce img{
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 3%;
+    margin-left: auto;
+}
+.web-hosting img{
+    max-width: 80%;
+    margin-left: 8rem;
+    max-height: auto;
+    border-radius: 3%;
+}
+.portfolio img, .daraz img{
+    max-width: 300%;
+    margin-left: -2rem;
+    border-radius: 3%;
+}
+.portfolio .cat-detail{
+    max-width: 30%;
+}
+.daraz .cat-detail{
+    max-width: 30%;
+    margin-left: -5rem;
+}
+.footer{
+    padding: 5rem;
+    background-color: #52a349;
+}
+
+.social-media{
+    text-align: center;
+}
+.social-media a{
+    padding: 3rem;
+}
+.rights{
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: -5rem;
+}
